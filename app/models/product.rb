@@ -1,5 +1,5 @@
 class Product < ApplicationRecord
-	belongs_to :category
+	belongs_to :category 
 		validates :price, presence: true
 	    before_save :set_premium_category
 
